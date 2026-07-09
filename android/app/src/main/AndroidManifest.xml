@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="ai_daily_meal_planner_github"
+        android:label="AI Daily Meal Planner"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
